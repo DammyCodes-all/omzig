@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 const entryDir = path.resolve(__dirname, 'entry');
-const outputDir = path.resolve(__dirname, '..', 'output');
+const outputDir = path.resolve(__dirname, 'output');
 
 async function main() {
   const markitdown = new MarkItDown();
