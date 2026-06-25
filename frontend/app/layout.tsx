@@ -17,6 +17,10 @@ const fontHeading = Sora({
   subsets: ["latin"],
   variable: "--font-sora",
 });
+const fontHeading = Sora({
+  subsets: ["latin"],
+  variable: "--font-sora",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
