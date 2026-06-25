@@ -144,4 +144,11 @@
   h6 {
     font-family: var(--font-heading);
   }
+  ::selection {
+    background-color: color-mix(in oklch, var(--primary) 30%, transparent);
+  }
+  mark {
+    background-color: var(--confusion);
+    border-color: var(--confusion-border);
+  }
 }
